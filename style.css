@@ -6,21 +6,31 @@
 body {
   background-color: white;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-  width: 100%;
+  display:flex;
+  justify-content: center;
+  border: solid;
+    height: 100vh;
+
   margin: 0 auto;
 }
 .container {
-    /* width: 10%; */
+    width: 100%;
+    border:solid;
     justify-content: center;
-    align-items: center;
+    align-items:start;
     margin: auto;
+
 }
 .heading {
-    display: flex-end;
-   
+    display: flex;
+     justify-content: end;
 }
 .content {
-   
+    diplay: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    
 }
 .google_color {
     justify-content: center;
@@ -51,12 +61,10 @@ body {
     border-radius: 15%;
 }
 .button1 {
-    
+    border-radius: 
 }
 .adding_footer {
-
 }
 .footer_links {
-
 }
 @media;
