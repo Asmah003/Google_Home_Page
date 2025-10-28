@@ -70,4 +70,4 @@ Signification : Améliore l’aspect visuel avec des bords plus doux.
 
 ## Capture d'ecran:
 
-[!image](./Google_image.png)
+![image](./Google_image.png)
