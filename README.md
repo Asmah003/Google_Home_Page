@@ -21,8 +21,9 @@ Flexbox : Pour un alignement centré et fluide des éléments.
 
 Emojis : Utilisation d'icônes simples comme le 🔍 pour la barre de recherche.
 
-Expériences personnelles
-Structuration HTML : Utilisation des balises sémantiques comme <header>, <main>, et <footer> pour une meilleure organisation.
+## Expériences personnelles
+
+Structuration HTML : Utilisation des balises sémantiques comme header, main, et footer pour une meilleure organisation.
 
 Responsive Design : Adaptation de la page pour les écrans mobiles, tablettes et ordinateurs de bureau via media queries.
 
@@ -31,19 +32,19 @@ CSS pour l'UX/UI : Application de couleurs spécifiques de Google et mise en pla
 Accessibilité : Respect des bonnes pratiques d'accessibilité pour améliorer l'interaction avec la page.
 
 Liste des balises et explications
-<header> : Contient les éléments d’introduction, comme le logo ou les liens de navigation.
+header : Contient les éléments d’introduction, comme le logo ou les liens de navigation.
 
 Signification : Définie la zone d'en-tête de la page.
 
-<main> : Contient le contenu principal de la page.
+main : Contient le contenu principal de la page.
 
 Signification : Zone principale où les utilisateurs interagiront (par exemple, la barre de recherche).
 
-<footer> : Contient les informations de bas de page, comme des liens ou des mentions légales.
+footer : Contient les informations de bas de page, comme des liens ou des mentions légales.
 
 Signification : Section située en bas de page.
 
-<input> : Champ de saisie pour la recherche.
+input : Champ de saisie pour la recherche.
 
 Signification : Permet à l’utilisateur de saisir du texte (recherche).
 
@@ -69,4 +70,4 @@ Signification : Améliore l’aspect visuel avec des bords plus doux.
 
 ## Capture d'ecran:
 
-[image](./Google_image.png)
+[!image](./Google_image.png)
