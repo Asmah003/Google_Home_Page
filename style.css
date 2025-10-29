@@ -26,6 +26,15 @@ body {
     font-size: 1rem;
     color: #70757a;
 }
+.p1:hover{
+    padding: 8px;
+    background-color: #eef2f5ff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.heading p:hover{
+    cursor: pointer;
+}
 .content {
     display: flex;
     flex-direction: column;
@@ -92,7 +101,6 @@ body {
 .button1:hover, .button2:hover {
     background-color: #f1f3f4;  /* Change la couleur de fond */
     color: #37B25D;             /* Change la couleur du texte */
-    transition: all 0.3s ease;  /* Animation douce lors du survol */
 }
 .localisation{
     display: flex;
@@ -116,20 +124,30 @@ body {
 .suppression {
     list-style-type: none;
 }
-
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     .google_color{
-        font-size: 40px;
+        font-size: 55px;
+    }
+    .button1, .button2 {
+        font-size: 10px;
     }
     .search_bar input {
-         padding: 10px 20px 10px 20px;
+         padding: 10px 5px 5px 20px;
+    }
+@media (max-width: 375px) {
+    .google_color{
+        font-size: 50px;
+    }
+    .search_bar input {
+         padding: 10px 5px 5px 20px;
     }
 
 }
 @media (max-width: 320px) {
     .google_color{
-        font-size: 40px;
+        font-size: 50px;
     }
-    .search_bar input {
-         padding: 10px 20px 10px 20px;
+    .button1, .button2 {
+        font-size: 10px;
     }
+}
